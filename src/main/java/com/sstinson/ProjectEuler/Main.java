@@ -24,5 +24,8 @@ public class Main {
         Problem6 problem6 = new Problem6();
         System.out.println(problem6.solution);
 
+        Problem7 problem7 = new Problem7();
+        System.out.println(problem7.solution);
+
     }
 }
