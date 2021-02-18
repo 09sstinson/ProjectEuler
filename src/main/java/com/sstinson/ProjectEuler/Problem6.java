@@ -14,6 +14,11 @@ public class Problem6 {
         solveProblem6();
     }
 
+    public static void main(String[] args){
+        Problem6 p = new Problem6();
+        System.out.println(p.solution);
+    }
+
     public void solveProblem6(){
         int sum = 0;
         int squareSum = 0;

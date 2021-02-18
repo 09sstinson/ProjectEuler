@@ -11,6 +11,11 @@ public class Problem1 {
         solveProblem1();
     }
 
+    public static void main(String[] args){
+        Problem1 p = new Problem1();
+        System.out.println(p.solution);
+    }
+
     public void solveProblem1(){
         int sum = 0;
         for(int i = 1; i < 1000 ; i++){

@@ -15,6 +15,11 @@ public class Problem5 {
         solveProblem5();
     }
 
+    public static void main(String[] args){
+        Problem5 p = new Problem5();
+        System.out.println(p.solution);
+    }
+
     public void solveProblem5(){
 
 

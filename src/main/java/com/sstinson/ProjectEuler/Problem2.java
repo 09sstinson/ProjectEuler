@@ -13,6 +13,11 @@ public class Problem2 {
         solveProblem2();
     }
 
+    public static void main(String[] args){
+        Problem2 p = new Problem2();
+        System.out.println(p.solution);
+    }
+
     public void solveProblem2(){
         int currentFib = 2;
         int previousFib = 1;

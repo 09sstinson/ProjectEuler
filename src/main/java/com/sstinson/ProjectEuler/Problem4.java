@@ -13,6 +13,11 @@ public class Problem4 {
         solveProblem4();
     }
 
+    public static void main(String[] args){
+        Problem4 p = new Problem4();
+        System.out.println(p.solution);
+    }
+
     public void solveProblem4(){
         List<Integer> products = new ArrayList<>(1000000);
 

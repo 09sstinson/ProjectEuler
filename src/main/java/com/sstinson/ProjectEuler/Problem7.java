@@ -18,6 +18,11 @@ public class Problem7 {
         solution = primes.get(primes.size() - 1);
     }
 
+    public static void main(String[] args){
+        Problem7 p = new Problem7();
+        System.out.println(p.solution);
+    }
+
     public List<Integer> listNPrimes(int n){
         List<Integer> primes = new ArrayList<>();
         int count = 0;

@@ -14,6 +14,11 @@ public class Problem3 {
         solution = listPrimeFactors(number).get(listPrimeFactors(number).size()-1);
     }
 
+    public static void main(String[] args){
+        Problem3 p = new Problem3();
+        System.out.println(p.solution);
+    }
+
     public static List<Long> listPrimeFactors(long n){
         long temp = n;
         List<Long> primeFactors = new ArrayList<>();
@@ -30,6 +35,9 @@ public class Problem3 {
         // the smallest divisor of a number must be prime
         long i = 2;
         while( n % i != 0){
+            if(i>Math.sqrt(n)){
+                return n;
+            }
             i++;
         }
         return i;
